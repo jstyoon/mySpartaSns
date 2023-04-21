@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-7lr_5^s_=zu8r60jx$8pw00i*t065ju08698!rm'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
@@ -36,8 +36,6 @@ INSTALLED_APPS = [
     'restaurant',
     'taggit.apps.TaggitAppConfig',
     'taggit_templatetags2',
-    
-    
     
     
     'django.contrib.admin',
